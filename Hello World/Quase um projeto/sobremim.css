@@ -1,0 +1,53 @@
+
+body{
+    font-family:'Outfit', sans-serif; 
+    background-color: #EEFCF7;
+    background-image: linear-gradient(0deg, rgba(38, 72, 134, 0.034),#3a599c28) , url(../pac-man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center
+
+}
+
+header{
+    align-items: center;
+    width: 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color:#EEFCF7;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+nav{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ div{
+    color: #EEFCF7;
+     font-family:'Outfit', sans-serif;
+     font-size: 20px;
+     text-align: center;
+    }
+
+.box-grid{
+    width: 580px;
+    margin: 0 auto;
+  }
+
+.cabecalho-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50% ;
+ }
+.font-icons{
+    font-size: 60px;
+    color: #EEFCF7; 
+}
+
+.footer{
+        justify-content:space-evenly;
+        display:  flex;
+ }
